@@ -1,6 +1,7 @@
 let total = 0;
-while(true){
-    let num = prompt('Введите число:');
+let num
+for (let i =0; num !== NaN; i++){
+    num = prompt('Введите число:');
     if(num === null){
         alert(`Общая сумма чисел равна ${total}`);
         break;
